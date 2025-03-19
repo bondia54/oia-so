@@ -1,0 +1,16 @@
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 1.25%;
+}
+
+button{
+    border-radius: 5px;
+}
+
+.bemVindo{
+    background-color: blue;
+}

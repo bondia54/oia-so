@@ -1,0 +1,50 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-left: 35%;
+    margin-top: 5%;
+    width: 50%;
+}
+
+.foto1Kid{
+    display: flex;
+    justify-content: center;
+    margin-left: 34%;
+    margin-top: 5%;
+}
+
+.biografia{
+    background-image: url(images\ \(1\).jfif);
+    background-size: 100%;
+    text-align: center;
+}
+
+.imagem{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border: 10px;
+}
+
+.card1{
+    border: 3px solid black;
+}
+
+.card2{
+    border: 3px solid black;
+}
+
+.card3{
+    border: 3px solid black;
+}
+
+.card4{
+    border: 3px solid black;
+}

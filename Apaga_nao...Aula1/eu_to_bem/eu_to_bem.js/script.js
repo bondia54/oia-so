@@ -1,0 +1,1 @@
+alert('aperte no "ok" se você concordar em não me apagar...');
