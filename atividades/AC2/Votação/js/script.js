@@ -12,5 +12,3 @@ function idade() {
 
     document.getElementById("confirmacao").innerHTML = mensagem;
 }
-
-
