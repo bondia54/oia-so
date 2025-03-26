@@ -29,4 +29,5 @@ function salarios() {
     //salario liquido com 22%//
 
     document.getElementById("salario neto").innerHTML = mensagemNeto;
+    //mensagem com a indicação do salario líquido//
 }
