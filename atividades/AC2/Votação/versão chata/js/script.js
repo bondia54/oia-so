@@ -5,6 +5,8 @@ function VerificarVoto() {
 
     if (idade >= 16 && nacionalidade == "sim" || nacionalidade == "s" || nacionalidade == "S" || nacionalidade == "Sim" || nacionalidade == "SIM") {
         mensagem = "Pode votar (¬‿¬)"
+    } else if (idade == "" && nacionalidade == "") {
+        mensagem = "Por favor, preencha os campos";
     } else {
         mensagem = "Não pode votar (ノಠ益ಠ)ノ"
     }
