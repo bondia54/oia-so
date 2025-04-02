@@ -1,3 +1,101 @@
-body{
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.votacao-container {
+    background-color: #404040;
+    color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 4px 8px #808080;
     text-align: center;
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 25px;
+    font: optional;
+    font-size:xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline solid white 2px;
+}
+
+input[type="number"],
+input[type="text"] {
+    width: 80%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #1C1C1C;
+    color: white;
+}
+
+input::placeholder {
+    color: #ccc;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 20px;
+}
+
+.button input[type="button"] {
+    background-color: #1C1C1C;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    width: 80%;
+    margin: 10px 0;
+}
+
+.button input[type="button"]:hover {
+    background-color: #555;
+}
+
+.respostas {
+    margin: 20px 0;
+    min-height: 50px;
+}
+
+.respostas p {
+    margin: 5px 0;
+    color: #fff;
+}
+
+.links {
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.links a {
+    color: #4da6ff;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 10px;
+    transition: color 0.3s;
+}
+
+.links a:hover {
+    color: #7fbbff;
+    text-decoration: underline;
 }

@@ -9,23 +9,30 @@
 </head>
 
 <body>
-    <h1>Verificação de Votação</h1>
-    <input type="number" id="idade" placeholder="Informe sua idade">
-    <br>
-    <input type="text" id="nacionalidade" placeholder="Você é Brasileiro?">
-    <br>
-    <label for="nacionalidade">(responda com "sim" ou "não")</label>
-    <br>
-    <br>
-    <input type="button" value="Verificar seu direito de votação" onclick="VerificarVoto()">
-    <p id="resposta"></p>
-    <p id="resposta"></p>
+    <div class="votacao-container">
+        <div class="container">
+            <h1>Verificação de <span class="sublinhado">Votação</span></h1>
+            <input type="number" id="idade" placeholder="Informe sua idade">
+            <input type="text" id="nacionalidade" placeholder="Você é Brasileiro?">
+            <label for="nacionalidade">(responda com "sim" ou "não")</label>
+        </div>
+        <div class="button">
+            <input type="button" value="Verificar seu direito de votação" onclick="VerificarVoto()">
+        </div>
+        <div class="respostas">
+            <p id="resposta"></p>
+            <p id="resposta"></p>
+        </div>
+        <div class="links">
+            <a
+                href="file:///D:/Vinicius%20Dias/atividades/AC2/Conversor%20de%20unidades/vers%C3%A3o%20chata/index.html">
+                Conversor de unidades</a>
+            <br>
+            <a href="file:///D:/Vinicius%20Dias/atividades/AC2/Vota%C3%A7%C3%A3o/vers%C3%A3o%20legal/index.html">Versão
+                legal</a>
+        </div>
+    </div>
     <script type="text/javascript" src="js/script.js"></script>
-    <a href="file:///D:/Vinicius%20Dias/atividades/AC2/Conversor%20de%20unidades/vers%C3%A3o%20chata/index.html">
-        Conversor de unidades</a>
-    <br>
-    <a href="file:///D:/Vinicius%20Dias/atividades/AC2/Vota%C3%A7%C3%A3o/vers%C3%A3o%20legal/index.html">Versão
-        legal</a>
 </body>
 
 </html>

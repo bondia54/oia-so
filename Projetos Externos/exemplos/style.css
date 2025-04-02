@@ -1,0 +1,49 @@
+.votacao-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Isso centraliza verticalmente na página */
+    padding: 20px;
+  }
+  
+  .votacao-box {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px; /* Largura máxima do retângulo */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .votacao-box h2 {
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .votacao-box p {
+    margin: 15px 0;
+    font-size: 18px;
+  }
+  
+  .botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+  }
+  
+  .botoes button {
+    padding: 12px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .botoes button:hover {
+    background-color: #555;
+  }
