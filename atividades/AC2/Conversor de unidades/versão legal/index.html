@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de unidades</title>
+    <style type="text/css" src="style.css"></style>
+</head>
+
+<body>
+    <h1>Conversor de unidades (cm-m-km)</h1>
+    <input type="number" id="medida" placeholder="Informe a medida">
+    <br>
+    <select id="unidades">
+        <option value="centimetro">Centímetros</option>
+        <option value="metro">Metros</option>
+        <option value="quilometro">Quilômetros</option>
+    </select>
+    <label for="unidades">- unidade de medida</label>
+    <br>
+    <br>
+    <input type="button" value="Converter medida" onclick="Converter()">
+    <p id="resposta2"></p>
+    <p id="resposta1"></p>
+    <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+
+</html>

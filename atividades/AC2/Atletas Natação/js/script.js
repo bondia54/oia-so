@@ -10,10 +10,10 @@ function classificar() {
         mensagem = "Classificação: Juvenil A";
     } else if (idade >= 8) {
         mensagem = "Classificação: Infantil";
-    } else if (idade < 1) {
-        mensagem = "Classificação: unknown";
-    } else {
+    } else if (idade >= 1) {
         mensagem = "Classificação: mirim";
+    } else {
+        mensagem = "Classificação: unknown";
     }
 
     document.getElementById("resposta").innerHTML = mensagem;
